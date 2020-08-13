@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
 
@@ -23,7 +24,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Cuéntame tu Proyecto</a>
+       <i class="fas fa-rainbow"></i>&nbsp;
+      <a class="navbar-brand" href="contacto.html"> Cuéntame tu Proyecto</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,13 +37,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre mí</a>
+            <a class="nav-link" href="#sobre_mi">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="#galeria">Galería</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -49,29 +51,37 @@
   </nav>
 
   <!-- Header -->
-  <header class="bg-primary py-5 mb-5">
+  <header class="bg-dark py-5 mb-5">   
+   <div class="contenedor_fondo">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2 font-weight-bold">Diana Vallina Canella</h1>
-          <p class="lead mb-2 text-white-50">Diseño 3D - Diseño web</p>
+          <h1 class="display-4 text-white mt-5 mb-2">Diana Vallina Canella</h1>
+          <p class="lead mb-5 text-white-50">Diseño web - Diseño 3D - Planos 2D </p>
         </div>
       </div>
+    </div>
     </div>
   </header>
 
   <!-- Page Content -->
+  <a name="sobre_mi"></a>
+  
   <div class="container">
-
     <div class="row">
       <div class="col-md-8 mb-5">
+        
         <h2>Sobre mí</h2>
         <hr>
-        <p>Mi nombre es Diana Vallina Canella. Soy Técnico Superior en Desarrollo de Aplicaciones Informáticas y Técnico Superior en Desarrollo y Aplicación de Proyectos de Construcción.</p>
+        <p>Soy Técnico Superior en <span class="texto-rosa">Desarrollo de Aplicaciones Informáticas </span>y Técnico Superior en <span class="texto-rosa">Desarrollo y Aplicación de Proyectos de Construcción</span>.</p>
         <p>He hecho cursos como Técnico Auxiliar en Diseño Industrial y de Interiores, Técnico Auxiliar en Diseño Gráfico y certificado de profesionalidad Desarrollo de aplicaciones con tecnologías web.</p>
+        <p>Me encanta tanto el <span class="texto-rosa">diseño web</span> como el <span class="texto-rosa">diseño 3D</span>, sobre todo diseño de interiores.</p>
 <!--        <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>-->
       </div>
-      <div class="col-md-4 mb-5">
+      
+      <a name="contacto"></a>
+      
+      <div class="col-md-4 mb-5">        
         <h2>Contacto</h2>
         <hr>
         <address>
@@ -85,22 +95,27 @@
           699 99 99 99
           <br>
           <abbr title="Email">Email:</abbr>
-          <a href="mailto:#">dvcanella@gmail.com</a>
+          <a href="mailto:#" class="email_contacto">dvcanella@gmail.com</a>
         </address>
       </div>
     </div>
     <!-- /.row -->
-
+    
+    
+    <a name="galeria"></a>
+    
     <div class="row">
+        
+
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <img class="card-img-top" src="img/APP_3.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Página web</h4>
-            <p class="card-text">Diseño página web para un complejo turístico</p>
+            <p class="card-text">Diseño página web para un <span class="texto-rosa">complejo turístico</span></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">¡Encuentra más!</a>
+            <a href="https://dianavallina.000webhostapp.com/APP-3/index.html" class="btn btn-primary btn btn-outline-light">¡Entra!</a>
           </div>
         </div>
       </div>
@@ -109,10 +124,10 @@
           <img class="card-img-top" src="img/cocina.jpg" alt="" >
           <div class="card-body">
             <h4 class="card-title">Diseño 3D</h4>
-            <p class="card-text">Diseño de cocina en 3D con imagen fotorrealista final.</p>
+            <p class="card-text">Diseño 3D de <span class="texto-rosa">cocina</span> con imagen fotorrealista final.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">¡Encuentra más!</a>
+            <a href="http://www.myinsitu.com/pano.htm?panoDir=/panoramas/1027123128-18464984#" class="btn btn-primary btn btn-outline-light">¡Pincha aquí!</a>
           </div>
         </div>
       </div>
@@ -121,10 +136,10 @@
           <img class="card-img-top" src="img/plano.jpg" alt="" >
           <div class="card-body">
             <h4 class="card-title">Plano 2D</h4>
-            <p class="card-text">Plano para vivienda unifamiliar en 2D</p>
+            <p class="card-text">Plano 2D para <span class="texto-rosa">vivienda unifamiliar</span></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">¡Encuentra más!</a>
+            <a href="#" class="btn btn-primary btn btn-outline-light" >¡Entra!</a>
           </div>
         </div>
       </div>

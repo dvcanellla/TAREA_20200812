@@ -5,16 +5,90 @@
  */
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 </style>
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+</style>
 
 
 
 body {
   padding-top: 56px;
-  font-family: Ubuntu;
+  font-family: Ubuntu;  
 }
 
 
+.texto-rosa {
+    color: rgba(227,11, 93, 1);
+}
+
+.card-footer a{
+    background-color: rgba(227,11, 93, 1);
+    
+    
+}
+
+.container i {
+    color: rgba(227,11, 93, 1);
+    font-size: 35px;
+}
+
+.email_contacto {
+    color: rgba(227,11, 93, 1);
+}
+
+/*
+.container .row div:hover {
+    background: #fff;
+    
+   
+    border: 2px solid rgba(227,11, 93, 0.2);
+    border-radius: 10px;
+    border-style:ridge;
+    padding: 10px;
+*/
+    
+/*
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);   
+*/
+    
+/*}*/
+
+.formulario {
+    margin-top: 56px;
+    height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivo {     
+    background: rgba(227,11, 93, 0.1);
+    border-radius: 10px;
+    padding: 20px;      
+} 
+
+.motivo > input {   
+    width: 300px; 
+    margin-bottom: 5px;
+    border: none;
+    
+} 
+.estilotextarea {
+    width: 300px;
+    height: 200px; 
+    border: none;    
+}
+
+.motivo button {     
+    border-radius: 5px;
+    background-color: rgba(227,11, 93, 1);
+    border-color: rgba(227,11, 93, 1);
+    color: #fff;
+} 
 
